@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+/* ====== 記事一覧 ======  */
+.top-nav-bar {
+    max-width: 100%;
+    padding: 5px 0 0 0;
+
+    background: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+}
+
+.top-nav-bar a {
+    color: rgba(255,255,255,1);
+}
+
+.top-nav-bar-title {
+    font-size: 1rem;
+}
+
+.top-nav-bar-add {
+    font-size: 0.9rem;
+}
+
+.top-title {
+    max-width: 100%;
+    padding: 15px 0;
+    background: url(../img/furley_bg.png);
+    text-align: center;
+}
+
+.top-title a {
+    color: rgba(0,0,0,0.7);
+}
+
+.top-title h1 {
+    font-size: 2rem;
+}
+
+.top-bar {
+    background: url(../img/furley_bg.png);
+    padding: 20px 0 20px 0;
+}
+
+.top-bar-cate {
+    text-align: center;
+}
+
+/* ====== 記事一覧 ======  */
+.main-sec {
+    margin: 3rem auto;
+}
+
+.article-sec {
+    padding: 0 4rem;
+    border-right: 1px solid rgba(230,230,230, 1);
+}
+
+/* 記事セクション */
+.article-sec-title {
+    margin: 0 0 30px 0;
+}
+
+.add-button {
+    margin-top: 20px;
+}
+
+.article-list > li {
+    margin: 0 0 50px 0;
+    list-style: none;
+    border-bottom: 1px solid rgba(245,245,245,1);
+}
+
+.article-list > li:last-child {
+    border: none;
+}
+
+.article-list li > a {
+    color: rgba(85,85,85,1);
+}
+
+.article-list h4 {
+    margin: 0;
+}
+
+.article-update {
+    color: rgba(0,0,0,0.6);
+}
+
+.article-update > i {
+    margin: 0 5px 0 0;
+    color: rgba(0,0,0,0.6);
+}
+
+/* サイドメニューセクション */
+.side-menu-sec {
+    padding: 0 0 0 2rem;
+}
+
+.side-menu-sub-sec {
+    margin: 0 0 10px 0;
+}
+
+.side-menu-sub-sec:not(:first-child) {
+    margin: 45px 0 10px 0;
+}
+
+.side-menu-title {
+    display: inline-block;
+    margin: 0 0 10px 0;
+}
+
+.profile-main-name {
+    margin: 5px 0;
+}
+
+.profile-main-name h5 {
+    font-size: 1rem;
+    color: rgba(85,85,85,1);
+}
+
+.new-article-list {
+    margin: 0;
+}
+
+.new-article-list > li {
+    margin: 0 0 0 0;
+    padding: 7px 0;
+    list-style: none;
+    border-bottom: 1px solid rgba(230,230,230, 1);
+}
+
+.new-article-list > li:last-child {
+    border: none;
+}
+
+.new-article-list li > a {
+    color: rgba(85,85,85,1);
+}
+
+/* ====== 新着記事 ======  */
+.new-add-article-title {
+    margin: 20px 0;
+}
+
+.return-button i {
+    padding: 0 5px 0 0;
+}
+
+.add-error {
+    margin: 30px 0 30px 0;
+}
+
+/* ====== 記事閲覧 ======  */
